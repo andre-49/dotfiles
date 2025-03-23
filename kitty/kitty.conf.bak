@@ -1,0 +1,9 @@
+# the config file for Kitty terminal
+#
+
+font_family   Source Code Pro
+font_size 14.0
+background_opacity 0.85
+window_padding_width 3.0
+cursor_shape     block
+confirm_os_window_close 0

@@ -1,0 +1,7 @@
+* {
+    unspoken: #11151c;
+    foreground-color: #bfcbee;
+    selected-background-color: #AC7A64;
+    selected-foreground-color: #bfcbee;
+    border-color: #356292;
+}

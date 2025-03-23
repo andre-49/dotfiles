@@ -1,0 +1,14 @@
+* {
+  background: #2e3440;
+  foreground: #d8dee9;
+
+  background-alpha: #2e3440d9;
+
+  primary: #88c0d0;
+  secondary: #D08770;
+
+  success: #A3BE8C;
+  warning: #EBCB8B;
+  error: #BF616A;
+  info: #81A1C1;
+}
