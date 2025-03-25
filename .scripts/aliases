@@ -1,0 +1,31 @@
+# a file containing aliases 
+alias pak="sudo pacman"
+alias update="sudo pacman -Syu"
+alias remove="sudo pacman -Rns"
+alias add="sudo pacman -S"
+alias s="sudo"
+
+alias ff="fastfetch"
+alias v="nvim"
+alias V="nvim ."
+alias vs="sudo nvim"
+alias y="yazi"
+alias vim="sudo vim"
+# alias baka = "sudo rsync -aAXv / /run/media/49flow/fe5abdf0-5edb-4a41-adea-fdd3c947e817 --exclude=/mnt/backup --exclude=/dev/ --exclude=/proc/ --exclude=/sys/ --exclude=/tmp/ --exclude=/run/ --exclude=/mnt/ --exclude=/media/ --exclude=/lost+found --exclude=/home/"
+
+# alias push="git push -u origin main"
+# alias commit="git commit -a -m"
+# alias status="git status"
+# alias add="git add ."
+# alias build="bun tailwindcss -i ./input.css -o ./src/style.css --watch"
+
+# ls with icons
+alias ls='eza --icons --color=always --group-directories-first'
+alias ll='eza -alF --icons --color=always --group-directories-first'
+alias la='eza -a --icons --color=always --group-directories-first'
+alias l='eza -F --icons --color=always --group-directories-first'
+alias l.='eza -a | egrep "^\."' 
+
+mkcd() {
+    mkdir -p "$1" && cd "$1"
+}
